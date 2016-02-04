@@ -1,0 +1,21 @@
+<!-- [ Mirror metadata ] generatedAt: 1450447611808 -->
+<!-- Generated screen file. Fill the id tags below with content with
+which to populate your previewed layout. For a complete specification
+of sample data, please see http://jimulabs.com/sample-data-specifications/ 
+
+Valid attributes on <screen> tag: theme="@style/someTheme" inEditMode="false" overlay="@drawable/mockup" -->
+<screen>
+    <_content layout="@layout/list_item_forecast_today">
+        <!-- TextView Examples:
+        <list_item_date_textview text="@string/string_resource" />
+        <list_item_date_textview text="Text literal" textSize="14sp" /> -->
+        <list_item_date_textview />
+        <list_item_hight_textview />
+        <list_item_low_textview />
+        <!-- ImageView Examples:
+        <list_item_icon src="@drawable/image_resource" />
+        <list_item_icon src="relative_path/image.jpg" /> -->
+        <list_item_icon />
+        <list_item_forecast_textview />
+    </_content>
+</screen>
